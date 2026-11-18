@@ -6,13 +6,19 @@
 [![University](https://img.shields.io/badge/UPC-FIB-0070BA?style=for-the-badge)](https://www.fib.upc.edu)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
+> [!NOTE]
+> **Estat del repositori & Migració en curs:**  
+> El contingut complet d'aquesta assignatura es troba actualment en procés de migració des d'un altre disc dur. Aniré afegint a poc a poc més exercicis, laboratoris i apunts quan disposi de temps lliure.  
+> 
+> *Aquest repositori té una finalitat secundària com a demostració del meu coneixement base en fonaments d'enginyeria informàtica (el focus primordial del meu perfil professional i desenvolupament es troba en els meus projectes d'enginyeria de programari).*
+
 ---
 
 ## 📚 Continguts i Blocs Temàtics
 
 1. **📦 STL (Standard Template Library):**
-   - Ús eficient de contenidors de C++: `std::map`, `std::set`, `std::vector`, `std::priority_queue`.
-   - Anàlisi asimptòtica de complexitat temporal i espacial ($O(1)$, $O(\log n)$, $O(n)$).
+   - Ús eficient de contenidors de C++: std::map, std::set, std::vector, std::priority_queue.
+   - Anàlisi asimptòtica de complexitat temporal i espacial ((1)$, (\log n)$, (n)$).
 
 2. **⚔️ Divide & Conquer (D&C):**
    - Disseny d'algorismes divideix i venç (Cerca binària, ordenacions, exponenciació ràpida).
@@ -28,10 +34,10 @@
 
 ## 🛠️ Compilació i Execució
 
-```bash
+`ash
 g++ -O2 -std=c++17 -Wall nom_problema.cc -o nom_problema
 ./nom_problema < entrada.txt
-```
+`
 
 ---
 
